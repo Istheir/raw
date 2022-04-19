@@ -36,3 +36,9 @@ blue(){
 bold(){
     echo -e "\033[1m\033[01m$1\033[0m"
 }
+
+mv /etc/localtime /etc/localtime.bak
+cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+apt install -y ntp
+systemctl enable ntp
+systemctl restart ntp
