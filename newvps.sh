@@ -49,20 +49,4 @@ deb [arch=amd64] http://nginx.org/packages/debian/ $osReleaseVersionCodeName ngi
 deb-src http://nginx.org/packages/debian/ $osReleaseVersionCodeName nginx
 EOF
 update -y
-# 增加启动脚本
-cat > ${osSystemMdPath}trojan-go.service <<-EOF
-[Unit]
-Description=trojan-go
-After=network.target
-[Service]
-Type=simple
-PIDFile=${configTrojanGoPath}/trojan-go.pid
-ExecStart=${configTrojanGoPath}/trojan-go -config "${configTrojanGoPath}/server.json"
-ExecReload=/bin/kill -HUP \$MAINPID
-Restart=on-failure
-RestartSec=10
-RestartPreventExitStatus=23
-[Install]
-WantedBy=multi-user.target
-EOF
-chmod +x ${osSystemMdPath}trojan${promptInfoTrojanName}.service
+
