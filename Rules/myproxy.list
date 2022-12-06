@@ -4,7 +4,6 @@ DOMAIN-SUFFIX,greatposterwall.com
 DOMAIN-KEYWORD,speedtest
 DOMAIN-SUFFIX,ooklaserver.net
 DOMAIN,speed.dler.io
-SRC-IP-CIDR,172.20.0.0/16,no-resolve
 IP-CIDR,138.2.232.223/32,no-resolve
 IP-CIDR,173.82.15.251/32,no-resolve
 DOMAIN-KEYWORD,buliang0
