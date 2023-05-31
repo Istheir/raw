@@ -7,7 +7,6 @@ DOMAIN-SUFFIX,ooklaserver.net
 DOMAIN-SUFFIX,hlsx.izpc.me
 DOMAIN,speed.dler.io
 IP-CIDR,138.2.232.223/32,no-resolve
-IP-CIDR,173.82.15.251/32,no-resolve
 DOMAIN-KEYWORD,buliang0
 DOMAIN-KEYWORD,bulianglin
 DOMAIN-KEYWORD,51cg
