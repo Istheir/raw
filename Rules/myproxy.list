@@ -19,6 +19,7 @@ DOMAIN-SUFFIX,wslzzs.com
 DOMAIN-KEYWORD,51cg
 DOMAIN-SUFFIX,bwhrqu.com
 DOMAIN-SUFFIX,23img.com
+DOMAIN-SUFFIX,docker.io
 #Steam平台
 #不包含登陆
 DOMAIN,api.steampowered.com
