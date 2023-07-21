@@ -5,6 +5,7 @@ DOMAIN-SUFFIX,back-ups.me
 DOMAIN-KEYWORD,speedtest
 DOMAIN-SUFFIX,ooklaserver.net
 DOMAIN-SUFFIX,izpc.me
+DOMAIN-KEYWORD,announce
 DOMAIN,speed.dler.io
 IP-CIDR,138.2.232.223/32,no-resolve
 DOMAIN-KEYWORD,buliang0
