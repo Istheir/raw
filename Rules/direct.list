@@ -2,6 +2,7 @@ DOMAIN-SUFFIX,mi.com
 DOMAIN-SUFFIX,ddnsto.com
 DOMAIN-SUFFIX,kooldns.cn
 DOMAIN-SUFFIX,tocmcc.cn
+IP-CIDR,192.168.0.0/16,no-resolve
 IP-CIDR,173.245.48.0/20,no-resolve
 IP-CIDR,103.21.244.0/22,no-resolve
 IP-CIDR,103.22.200.0/22,no-resolve
