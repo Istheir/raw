@@ -4,7 +4,7 @@ DOMAIN-SUFFIX,oshen.win
 DOMAIN-SUFFIX,greatposterwall.com
 #vps
 IP-CIDR,138.2.232.223/32,no-resolve
-IP-CIDR,192.9.251.23,no-resolve
+IP-CIDR,192.9.251.23/32,no-resolve
 #bulianglin
 DOMAIN-KEYWORD,buliang0
 DOMAIN-KEYWORD,bulianglin
