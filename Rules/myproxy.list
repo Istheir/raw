@@ -22,6 +22,8 @@ DOMAIN-SUFFIX,bwhrqu.com
 DOMAIN-KEYWORD,telegra
 #docker
 DOMAIN-SUFFIX,docker.io
+#源IP
+SRC-IP-CIDR,172.20.0.0/24,no-resolve
 #cloudflare
 DOMAIN-SUFFIX,dynadot.com
 DOMAIN-SUFFIX,cloudflare.com
