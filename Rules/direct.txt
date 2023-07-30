@@ -6,6 +6,8 @@ IP-CIDR,192.168.0.0/16,no-resolve
 #pt
 IP-CIDR,172.67.211.7/32,no-resolve
 IP-CIDR,172.67.157.63/32,no-resolve
+IP-CIDR,49.77.54.77/32,no-resolve
+IP-CIDR,111.73.17.60/32,no-resolve
 #edge
 DOMAIN,edge.microsoft.com
 DOMAIN,go.microsoft.com
