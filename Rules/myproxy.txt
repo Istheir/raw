@@ -25,8 +25,6 @@ DOMAIN-SUFFIX,docker.io
 #cloudflare
 DOMAIN-SUFFIX,dynadot.com
 DOMAIN-SUFFIX,cloudflare.com
-#源IP
-SRC-IP-CIDR,172.20.0.0/20,no-resolve
 #机场
 DOMAIN-SUFFIX,sub-gfwairport1.cyou
 #城市天际线
