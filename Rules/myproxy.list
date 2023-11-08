@@ -6,6 +6,7 @@ DOMAIN-SUFFIX,hdarea.club
 #vps
 DOMAIN,frp.beeos.lol
 DOMAIN,star.beeos.lol
+DOMAIN,read.beeos.lol
 IP-CIDR,138.2.232.223/32,no-resolve
 IP-CIDR,192.9.251.23/32,no-resolve
 #bulianglin
@@ -100,3 +101,4 @@ DOMAIN-SUFFIX,chacuo.net
 DOMAIN-SUFFIX,fofa.info
 #reader
 DOMAIN-SUFFIX,2mcnxs.com
+
