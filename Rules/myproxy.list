@@ -10,6 +10,7 @@ DOMAIN,read.beeos.lol
 DOMAIN,gcore.com
 DOMAIN,accounts.gcore.com
 DOMAIN,auth.gcore.com
+DOMAIN,api.gcore.com
 IP-CIDR,138.2.232.223/32,no-resolve
 IP-CIDR,192.9.251.23/32,no-resolve
 #bulianglin
