@@ -108,4 +108,6 @@ DOMAIN-SUFFIX,fofa.info
 DOMAIN-SUFFIX,2mcnxs.com
 #frpgo
 DOMAIN-SUFFIX,gofrp.org
+#openai
+DOMAIN-SUFFIX,openai.com
 
