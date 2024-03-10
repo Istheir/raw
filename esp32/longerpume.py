@@ -3,8 +3,8 @@ import machine
 import time
 import network
 
-SSID="yanfa5"
-PASSWORD="kuncai6888"
+SSID=""
+PASSWORD=""
 port=80
 wlan=None
 listenSocket=None
@@ -13,11 +13,13 @@ def connectWifi(ssid,passwd): #建立wifi连接
   global wlan
   wlan=network.WLAN(network.STA_IF)
   wlan.active(True)
-  wlan.disconnect()
-  wlan.connect(ssid,passwd)
-  while(wlan.ifconfig()[0]=='0.0.0.0'):
-    time.sleep(1)
-  return True
+  if not wlan.isconnected():
+    print('connecting to network...')
+    wlan.connect(ssid, passwd)
+    while not wlan.isconnected():
+        pass
+    print('network config:', wlan.ifconfig())
+
 
 #HTML to send to browsers
 html = """<!DOCTYPE html>
@@ -41,13 +43,13 @@ button {
 </style>
 </head>
 <body>
-<center><h1>Botdemy IoT Car Control</h1>
+<center><h1>MicroPython IoT longer</h1>
 <form>
-<div><button name="CMD" value="up" type="submit">Forward</button></div>
-<div><button name="CMD" value="Ti" type="submit">Left</button>
+<div><button name="CMD" value="up" type="submit">up</button></div>
+<div><button name="CMD" value="Ti" type="submit">Ti</button>
 <button name="CMD" value="stop" type="submit">Stop</button>
-<button name="CMD" value="Si" type="submit">Right</button></div>
-<div><button name="CMD" value="down" type="submit">Back</button></div>
+<button name="CMD" value="Si" type="submit">Si</button></div>
+<div><button name="CMD" value="down" type="submit">down</button></div>
 </form>
 </center>
 </body>
@@ -170,7 +172,7 @@ print ('tcp waiting...')
 
 while True:
     print("accepting.....")
-    conn,addr = listenSocket.accept()
+    conn, addr = listenSocket.accept()
     print("Got a connection from %s" % str(addr))
     request = conn.recv(1024)
     print("Content = %s" % str(request))
@@ -198,17 +200,18 @@ while True:
         pwm15.freq(10000)
         down()
         time.sleep(1)
-    if CMD_TI == 6:
-        print('+left')
+    if CMD_Ti == 6:
+        print('+Ti')
         pwm15.freq(10000)
         ti()
-    if CMD_Ti == 6:
+    if CMD_Si == 6:
         print('+Si')
         si()
     if CMD_stop == 6:
         print('+stop')
-        pwm15.freq(0)
+        pwm15.freq(10)
         stop()
     response = html #将html的网页定义装载在回应字段
     conn.send(response) #send到浏览器上，就形成了控制界面
     conn.close()
+
