@@ -170,7 +170,7 @@ print ('tcp waiting...')
 
 while True:
     print("accepting.....")
-    conn, addr = listenSocket.accept()
+    conn,addr = listenSocket.accept()
     print("Got a connection from %s" % str(addr))
     request = conn.recv(1024)
     print("Content = %s" % str(request))
