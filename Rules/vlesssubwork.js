@@ -1,11 +1,11 @@
 
 // 部署完成后在网址后面加上这个，获取订阅器默认节点，/auto
 
-let mytoken= ' ';//快速订阅访问入口, 留空则不启动快速订阅
+let mytoken= 'auto';//快速订阅访问入口, 留空则不启动快速订阅
 
 // 设置优选地址，不带端口号默认443，不支持非TLS订阅生成
 let addresses = [
-	'icook.tw:2053',
+	'icook.tw',
 	'cloudflare.cfgo.cc',
 ];
 
@@ -42,7 +42,7 @@ let proxyhosts = [//本地代理域名池
 	//'ppfv2tl9veojd-maillazy.pages.dev',
 ];
 let proxyhostsURL = 'https://raw.githubusercontent.com/cmliu/CFcdnVmess2sub/main/proxyhosts';//在线代理域名池URL
-let EndPS = 'worker';//节点名备注内容
+let EndPS = '';//节点名备注内容
 
 let FileName = 'WorkerVless2sub';
 let SUBUpdateTime = 6; 
