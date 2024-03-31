@@ -5,16 +5,13 @@ DOMAIN-SUFFIX,greatposterwall.com
 DOMAIN-SUFFIX,hdarea.club
 #vps
 DOMAIN-SUFFIX,493624189.xyz
-DOMAIN,frp.beeos.lol
-DOMAIN,star.beeos.lol
-DOMAIN,read.beeos.lol
+DOMAIN-SUFFIX,124396.xyz
 DOMAIN,gcore.com
 DOMAIN,accounts.gcore.com
 DOMAIN,auth.gcore.com
 DOMAIN,api.gcore.com
 DOMAIN-SUFFIX,v2raya.org
 IP-CIDR,138.2.232.223/32,no-resolve
-IP-CIDR,192.9.251.23/32,no-resolve
 #bulianglin
 DOMAIN-KEYWORD,buliang0
 DOMAIN-KEYWORD,bulianglin
