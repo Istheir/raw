@@ -109,4 +109,7 @@ DOMAIN-SUFFIX,2mcnxs.com
 DOMAIN-SUFFIX,gofrp.org
 #openai
 DOMAIN-SUFFIX,openai.com
-
+# annas-archive
+DOMAIN-SUFFIX,annas-archive.org
+DOMAIN-SUFFIX,annas-archive.gs
+DOMAIN-SUFFIX,annas-archive.se
