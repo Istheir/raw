@@ -22,3 +22,4 @@ DOMAIN-SUFFIX,cdn.mileweb.cs.steampowered.com.8686c.com
 DOMAIN-SUFFIX,edge.microsoft.com
 #azure
 DOMAIN-SUFFIX,azure.com
+DOMAIN-SUFFIX,azure.net
