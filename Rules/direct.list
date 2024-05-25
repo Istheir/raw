@@ -24,4 +24,5 @@ DOMAIN-SUFFIX,live.com
 #azure
 DOMAIN-SUFFIX,azure.com
 DOMAIN-SUFFIX,azure.net
+DOMAIN-SUFFIX,microsoftonline.com
 
