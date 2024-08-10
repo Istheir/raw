@@ -26,4 +26,4 @@ DOMAIN-SUFFIX,azure.com
 DOMAIN-SUFFIX,azure.net
 DOMAIN-SUFFIX,microsoftonline.com
 DOMAIN,mirrors.tuna.tsinghua.edu.cn
-KEYWORDS,tsinghua
+DOMAIN-KEYWORD,tsinghua
