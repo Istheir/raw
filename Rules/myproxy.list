@@ -112,3 +112,5 @@ DOMAIN-SUFFIX,25img.com
 #spotify
 DOMAIN-SUFFIX,spotify.com
 DOMAIN-SUFFIX,netflixtown.com
+#musicbrainz
+DOMAIN-SUFFIX,musicbrainz.org
