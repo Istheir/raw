@@ -5,62 +5,25 @@ IP地址	端口	TLS	数据中心	地区	城市	网络延迟	下载速度
 40.233.70.7	8443	TRUE	YYZ	North America	Toronto	240 ms	6067 kB/s
 129.146.46.164	443	TRUE	LAX	North America	Los Angeles	283 ms	4619 kB/s
 192.9.250.241	443	TRUE	SJC	North America	San Jose	193 ms	4360 kB/s
-89.168.43.31	2053	TRUE	CDG	Europe	Paris	267 ms	3820 kB/s
-64.110.104.30	443	TRUE	KIX	Asia Pacific	Osaka	189 ms	3722 kB/s
 150.136.87.192	443	TRUE	IAD	North America	Ashburn	235 ms	3648 kB/s
-141.145.205.115	8443	TRUE	CDG	Europe	Paris	283 ms	3503 kB/s
-89.168.83.143	8443	TRUE	FRA	Europe	Frankfurt	294 ms	3478 kB/s
-158.180.49.11	8443	TRUE	FRA	Europe	Frankfurt	312 ms	3295 kB/s
-132.145.54.84	8443	TRUE	LHR	Europe	London	238 ms	3236 kB/s
-129.151.198.3	8443	TRUE	ARN	Europe	Stockholm	294 ms	3207 kB/s
-129.151.148.35	443	TRUE	AMS	Europe	Amsterdam	257 ms	2944 kB/s
-129.151.198.3	2053	TRUE	ARN	Europe	Stockholm	284 ms	2839 kB/s
-141.148.229.106	443	TRUE	AMS	Europe	Amsterdam	293 ms	2809 kB/s
 158.101.24.17	443	TRUE	LAX	North America	Los Angeles	266 ms	2786 kB/s
-193.123.235.59	443	TRUE	ICN	Asia Pacific	Seoul	186 ms	2761 kB/s
-84.235.169.234	443	TRUE	AMS	Europe	Amsterdam	300 ms	2719 kB/s
-158.101.199.249	8443	TRUE	AMS	Europe	Amsterdam	294 ms	2498 kB/s
-150.230.20.156	2053	TRUE	AMS	Europe	Amsterdam	304 ms	2362 kB/s
-144.24.243.207	443	TRUE	ZRH	Europe	Zurich	263 ms	1461 kB/s
-158.179.207.182	8443	TRUE	ARN	Europe	Stockholm	272 ms	1356 kB/s
-89.168.68.57	8443	TRUE	FRA	Europe	Frankfurt	300 ms	1343 kB/s
-150.230.20.156	8443	TRUE	AMS	Europe	Amsterdam	291 ms	1147 kB/s
-158.179.207.182	2053	TRUE	ARN	Europe	Stockholm	290 ms	975 kB/s
 168.138.141.235	2053	TRUE	GRU	South America	São Paulo	361 ms	860 kB/s
-158.180.49.11	2053	TRUE	FRA	Europe	Frankfurt	300 ms	755 kB/s
 144.22.252.124	443	TRUE	GRU	South America	São Paulo	373 ms	731 kB/s
-89.168.68.57	2053	TRUE	FRA	Europe	Frankfurt	299 ms	640 kB/s
-158.178.153.80	2096	TRUE	AMS	Europe	Amsterdam	288 ms	464 kB/s
-217.142.243.226	443	TRUE	KIX	Asia Pacific	Osaka	198 ms	368 kB/s
-141.147.47.32	8443	TRUE	FRA	Europe	Frankfurt	312 ms	336 kB/s
-130.61.23.77	443	TRUE	FRA	Europe	Frankfurt	294 ms	336 kB/s
 132.226.163.224	8443	TRUE	GRU	South America	São Paulo	368 ms	240 kB/s
 155.248.196.123	443	TRUE	YVR	North America	Vancouver	176 ms	214 kB/s
 146.235.59.153	2053	TRUE	GRU	South America	São Paulo	362 ms	204 kB/s
 129.159.84.71	443	TRUE	IAD	North America	Ashburn	269 ms	179 kB/s
 146.235.59.153	8443	TRUE	GRU	South America	São Paulo	362 ms	121 kB/s
-138.2.122.191	443	TRUE	ICN	Asia Pacific	Seoul	155 ms	102 kB/s
-158.178.206.197	2053	TRUE	CDG	Europe	Paris	252 ms	54 kB/s
-129.159.241.172	443	TRUE	FRA	Europe	Frankfurt	301 ms	21 kB/s
 129.80.123.71	443	TRUE	IAD	North America	Ashburn	237 ms	0 kB/s
-89.168.43.31	8443	TRUE	CDG	Europe	Paris	279 ms	0 kB/s
-168.138.46.67	443	TRUE	KIX	Asia Pacific	Osaka	203 ms	0 kB/s
 192.18.159.129	443	TRUE	YYZ	North America	Toronto	237 ms	0 kB/s
 216.38.168.34	16384	TRUE	LAX	North America	Los Angeles	175 ms	252 kB/s
-8.219.170.232	443	TRUE	SIN	Asia Pacific	Singapore	238 ms	7125 kB/s
-47.76.218.163	443	TRUE	HKG	Asia Pacific	Hong Kong	60 ms	1120 kB/s
-8.219.1.169	443	TRUE	SIN	Asia Pacific	Singapore	217 ms	620 kB/s
-47.236.181.185	8443	TRUE	SIN	Asia Pacific	Singapore	224 ms	480 kB/s
 149.129.8.215	443	TRUE	SJC	North America	San Jose	105 ms	403 kB/s
 47.57.245.232	443	TRUE	SJC	North America	San Jose	67 ms	342 kB/s
 47.57.14.118	443	TRUE	SJC	North America	San Jose	68 ms	11 kB/s
 166.0.188.128	56825	TRUE	LAX	North America	Los Angeles	178 ms	8639 kB/s
-82.153.65.154	24620	TRUE	NRT	Asia Pacific	Tokyo	234 ms	112 kB/s
-35.187.229.127	80	FALSE	SIN	Asia Pacific	Singapore	117 ms	17710 kB/s
 34.160.118.77	80	FALSE	LAX	North America	Los Angeles	191 ms	10274 kB/s
 35.232.39.116	80	FALSE	EWR	North America	Newark	241 ms	3592 kB/s
 35.188.87.85	80	FALSE	ORD	North America	Chicago	247 ms	834 kB/s
-3.112.21.102	443	TRUE	NRT	Asia Pacific	Tokyo	86 ms	22802 kB/s
 35.167.93.200	443	TRUE	PDX	North America	Portland	205 ms	5703 kB/s
 204.110.223.180	80	TRUE	STL	North America	St. Louis	244 ms	4769 kB/s
 204.110.221.174	80	TRUE	YUL	North America	Montréal	248 ms	4247 kB/s
@@ -72,14 +35,6 @@ IP地址	端口	TLS	数据中心	地区	城市	网络延迟	下载速度
 15.157.7.168	443	TRUE	YUL	North America	Montréal	250 ms	2009 kB/s
 204.110.220.61	80	TRUE	SJC	North America	San Jose	175 ms	1429 kB/s
 204.110.223.219	80	TRUE	CMH	North America	Columbus	225 ms	1391 kB/s
-43.206.192.211	443	TRUE	NRT	Asia Pacific	Tokyo	90 ms	1337 kB/s
 204.110.221.20	80	TRUE	YUL	North America	Montréal	251 ms	550 kB/s
 50.112.166.63	443	TRUE	PDX	North America	Portland	202 ms	450 kB/s
-13.229.159.215	443	TRUE	SIN	Asia Pacific	Singapore	115 ms	355 kB/s
 44.226.147.29	443	TRUE	PDX	North America	Portland	198 ms	246 kB/s
-18.135.67.188	443	TRUE	LHR	Europe	London	193 ms	112 kB/s
-18.135.188.86	443	TRUE	LHR	Europe	London	194 ms	112 kB/s
-3.111.155.29	443	TRUE	BOM	Asia Pacific	Mumbai	289 ms	70 kB/s
-3.7.108.69	443	TRUE	BOM	Asia Pacific	Mumbai	342 ms	61 kB/s
-13.233.5.49	443	TRUE	BOM	Asia Pacific	Mumbai	289 ms	48 kB/s
-
