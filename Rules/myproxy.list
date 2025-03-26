@@ -4,9 +4,7 @@ DOMAIN-SUFFIX,oshen.win
 DOMAIN-SUFFIX,greatposterwall.com
 DOMAIN-SUFFIX,hdarea.club
 #vps
-DOMAIN,frp.124396.xyz
-DOMAIN,cloudeve.124396.xyz
-DOMAIN,a.124396.xyz
+DOMAIN-SUFFIX,124396.xyz
 DOMAIN,gcore.com
 DOMAIN,accounts.gcore.com
 DOMAIN,auth.gcore.com
