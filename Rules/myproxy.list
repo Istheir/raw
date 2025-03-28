@@ -1,6 +1,6 @@
 #dns
 DOMAIN-SUFFIX,ipleak.net
-SRC-IP-CIDR,8.8.8.8/32,no-resolve
+IP-CIDR,8.8.8.8/32,no-resolve
 #pt
 DOMAIN-SUFFIX,hd.ai
 DOMAIN-SUFFIX,oshen.win
