@@ -1,5 +1,6 @@
 #dns
 DOMAIN-SUFFIX,ipleak.net
+SRC-IP-CIDR,8.8.8.8/32,no-resolve
 #pt
 DOMAIN-SUFFIX,hd.ai
 DOMAIN-SUFFIX,oshen.win
@@ -23,8 +24,6 @@ DOMAIN-KEYWORD,telegra
 #docker
 DOMAIN-SUFFIX,docker.io
 DOMAIN-SUFFIX,docker.com
-#源IP
-SRC-IP-CIDR,172.20.0.0/24,no-resolve
 #cloudflare
 DOMAIN-SUFFIX,dynadot.com
 DOMAIN-SUFFIX,cloudflare.com
